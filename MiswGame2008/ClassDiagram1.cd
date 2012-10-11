@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="MS UI Gothic" Size="9" />
+  <Class Name="MiswGame2008.BigExplosionEffect">
+    <Position X="77" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\BigExplosionEffect.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAIAQAhAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.BlueEnemy">
+    <Position X="20.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\BlueEnemy.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAABABAQAAACCwAABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.BlueEnemySpawner">
+    <Position X="81.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\BlueEnemySpawner.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Borg">
+    <Position X="36.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Borg.cs</FileName>
+      <HashCode>GAQAAAAAAIAAAgAAAkIAAABAAAABAAgAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Bullet">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Bullet.cs</FileName>
+      <HashCode>AAQEAAAAAAAAAAAAAAIAAAABAAAAAQAAAEAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Clipper">
+    <Position X="43.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Clipper.cs</FileName>
+      <HashCode>IAQAAAAAEgAAAgAAAAIEAIAEBBAACAgAACAgBAAwBAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.ClipperBullet">
+    <Position X="7.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\ClipperBullet.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Debris">
+    <Position X="90.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Debris.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAIAAABAQAICSAhAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Effect">
+    <Position X="87" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Effect.cs</FileName>
+      <HashCode>AAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EndingMessage">
+    <Position X="60" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EndingMessage.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgQBQAMAAAAAAAAAAAAAACAgBAAABCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EndingMessage1">
+    <Position X="54.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EndingMessage1.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EndingMessage2">
+    <Position X="56.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EndingMessage2.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EndingMessage3">
+    <Position X="59" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EndingMessage3.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EndingMessage4">
+    <Position X="61.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EndingMessage4.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EndingMessage5">
+    <Position X="63.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EndingMessage5.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EndingMessage6">
+    <Position X="65.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EndingMessage6.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Enemy">
+    <Position X="44.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Enemy.cs</FileName>
+      <HashCode>AAQEAAAAAAAAAAABAAMEEAAAAAAAAAAAACAgAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.EnemyBullet">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\EnemyBullet.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.FastEnemy">
+    <Position X="50" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\FastEnemy.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAAAABAQgAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Firefox">
+    <Position X="68" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Firefox.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAAAABAQgAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.FirstBoss">
+    <Position X="16.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\FirstBoss.cs</FileName>
+      <HashCode>IAQAAAAAAAAAIgAAAAIAEAQAAwBAAAgAACAgBAAwBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.FirstBoss2">
+    <Position X="23" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\FirstBoss2.cs</FileName>
+      <HashCode>IAQAAAAAAAAAIgAAAAIAEAQAAwBAAAgAACAgBAAwBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Funnel">
+    <Position X="32" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Funnel.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Game">
+    <Position X="27.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Game.cs</FileName>
+      <HashCode>uASohMAABAIIBwoggBBKBQoJIBCMDUBBAAQEQSAAoIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.GameManager" Collapsed="true">
+    <Position X="99.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GameManager.cs</FileName>
+      <HashCode>EAQAAAAAQAACAgBAAAIIAACBAAEAAgAIAAZAgAAAEIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.GameObject">
+    <Position X="50" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GameObject.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAIAABgAAAAYAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.GameOver" Collapsed="true">
+    <Position X="101.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GameOver.cs</FileName>
+      <HashCode>gQQAAACABAIIAgIAgACBAAwIAAAMAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.GrayBackgroundGame">
+    <Position X="6.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GrayBackgoundGame.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.GreenBackgroundGame">
+    <Position X="19.75" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GreenBackgroundGame.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.GreenEnemy">
+    <Position X="34.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GreenEnemy.cs</FileName>
+      <HashCode>GAQAAAAAAIAAAgAAAkIAAAJAABABAQAAACCwAABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.GreenEnemySpawner">
+    <Position X="86" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GreenEnemySpawner.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Ie">
+    <Position X="45.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Ie.cs</FileName>
+      <HashCode>GAQAAAAAAIAAAgAAAkIAAAJAABABAQAAACCwAABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Kurage">
+    <Position X="70.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Kurage.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAAAABAQgAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.KurageSpawner">
+    <Position X="79.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\KurageSpawner.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAABAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.LastBoss">
+    <Position X="25.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\LastBoss.cs</FileName>
+      <HashCode>IAQAAAAAAAAAIgAAAAIAEIAAAwBAAAgAACAgBAAwBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level1">
+    <Position X="18.5" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level1.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level10">
+    <Position X="43.25" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level10.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level11">
+    <Position X="45.5" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level11.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level12">
+    <Position X="50" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level12.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level13">
+    <Position X="5" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level13.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level14">
+    <Position X="7.25" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level14.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level15">
+    <Position X="9.5" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level15.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level16">
+    <Position X="11.75" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level16.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level17">
+    <Position X="0.5" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level17.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level18">
+    <Position X="2.75" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level18.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level19">
+    <Position X="27.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level19.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level2">
+    <Position X="23" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level2.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level20">
+    <Position X="29.75" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level20.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level21">
+    <Position X="32" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level21.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level22">
+    <Position X="34.25" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level22.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level23">
+    <Position X="36.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level23.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level24">
+    <Position X="38.75" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level24.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level25">
+    <Position X="41" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level25.cs</FileName>
+      <HashCode>AAQggAAAAAAAAAAAAAAgAUAAAAAAAQABABAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level3">
+    <Position X="14" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level3.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level4">
+    <Position X="16.25" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level4.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level5">
+    <Position X="20.75" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level5.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level6">
+    <Position X="25.25" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level6.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level7">
+    <Position X="47.75" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level7.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level8">
+    <Position X="52.25" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level8.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Level9">
+    <Position X="54.5" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Level9.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Missile">
+    <Position X="11.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Missile.cs</FileName>
+      <HashCode>EAQAAAAAAAAAAgAAAgIAAEAIABAAAAAAAAAwAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.MissileEnemy">
+    <Position X="52.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\MissileEnemy.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAIJAAAABAQgAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.MissileEnemySpawner">
+    <Position X="97.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\MissileEnemySpawner.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.MiswGame2008" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="103.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\MiswGame2008.cs</FileName>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAABAAAAABgIAAAAAAAAEAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiswGame2008.Mushi">
+    <Position X="27.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Mushi.cs</FileName>
+      <HashCode>GAQAAAAAAIAAAgAAAkIAAIBAABABAAAAACCwAABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Opera">
+    <Position X="38.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Opera.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAAAABAQgAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.OrangeBullet">
+    <Position X="9.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\OrangeBullet.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.OrangeEnemy">
+    <Position X="47.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\OrangeEnemy.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAAAABAQgAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.OrangeEnemySpawner">
+    <Position X="88.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\OrangeEnemySpawner.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Player">
+    <Position X="74.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Player.cs</FileName>
+      <HashCode>EAQAAAAAAAAAAgAAAgIgEAAAQJAAgQAAACAQAgAABAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.PlayerBullet">
+    <Position X="14" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\PlayerBullet.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Program" Collapsed="true">
+    <Position X="105" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Ranking" Collapsed="true">
+    <Position X="99.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Ranking.cs</FileName>
+      <HashCode>gAQAAAAKAAAAAhAAgAABABgIAAAAAAAAAARAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.RedEnemy">
+    <Position X="29.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\RedEnemy.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAABABAQAAACCwAABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.RedEnemySpawner">
+    <Position X="83.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\RedEnemySpawner.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.SdlAudio" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="101.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\SdlAudio.cs</FileName>
+      <HashCode>CAAAAAAAAAABAQAAABAAAA0AAAAEAAAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiswGame2008.SdlGraphics" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="103.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\SdlGraphics.cs</FileName>
+      <HashCode>ABIAAAAQAFQIIQQAQAAAAAQAAAIAGAAIAAgkAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiswGame2008.SdlInput" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="105" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\SdlInput.cs</FileName>
+      <HashCode>BAQAACAIAJAAAAABAABAQIABgAAAAAAAKCAAACAI4AA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiswGame2008.SkyBackgroundGame">
+    <Position X="49" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\SkyBackgroundGame.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.SmallExplosionEffect">
+    <Position X="92.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\SmallExplosionEffect.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Smoke">
+    <Position X="95" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Smoke.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Snake">
+    <Position X="72.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Snake.cs</FileName>
+      <HashCode>UAQAAAAAAAAAJgCAAgYEEAAAAApADAgAACAwBABwBAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.SnakeBody">
+    <Position X="18.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\SnakeBody.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAABBAAAAAAGAgAABABgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.SnakeBullet">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\SnakeBullet.cs</FileName>
+      <HashCode>AoQAAAAAAAAAAgAAAAIAAAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.StarBackgroundGame">
+    <Position X="34.25" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\StarBackgroundGame.cs</FileName>
+      <HashCode>AAQAAAAQQAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Teki">
+    <Position X="41" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Teki.cs</FileName>
+      <HashCode>GAQAAAABAIAAAgAAAkIAAAJAAAABAQAAACCwBABABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.TekiBullet">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\TekiBullet.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAABAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Title" Collapsed="true">
+    <Position X="99.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Title.cs</FileName>
+      <HashCode>AAQAAAAQQAAAEgIAADAAAAAoAgAAAAAAAAQAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.TopPlayerInfo" Collapsed="true">
+    <Position X="101.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\TopPlayerInfo.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAgAAAAIAAQAAAEEAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiswGame2008.Utility" Collapsed="true">
+    <Position X="103.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Utility.cs</FileName>
+      <HashCode>gAAAAAAAAAAAAAAAAEAEAAAAAAEAAAAAAAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MiswGame2008.GameCommand" Collapsed="true">
+    <Position X="99.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GameCommand.cs</FileName>
+      <HashCode>AAAAAAIAAAACAAAAAAIAABgAAAAYAAAAKACAAiAAgAI=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MiswGame2008.UserCommand" Collapsed="true">
+    <Position X="101.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\UserCommand.cs</FileName>
+      <HashCode>AAAAAAIAAAACAAAAAAIAABgAAAAYAAAAKACAAiAAgAI=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="MiswGame2008.IAudio" Collapsed="true">
+    <Position X="99.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\IAudio.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MiswGame2008.IGraphics" Collapsed="true">
+    <Position X="101.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\IGraphics.cs</FileName>
+      <HashCode>ABIAAAAQABQAIAAAAAAAAAAAAAIAGAAAAAgkAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MiswGame2008.IInput" Collapsed="true">
+    <Position X="103.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\IInput.cs</FileName>
+      <HashCode>BAAAACAAAIAAAAAAAABAAIABgAAAAAAAICAAACAI4AA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MiswGame2008.GameManagerStatus" Collapsed="true">
+    <Position X="99.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GameManagerStatus.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAEAAAAAAACAAAAgAAAAAAAAAABEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MiswGame2008.GameStatus" Collapsed="true">
+    <Position X="101.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\GameStatus.cs</FileName>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MiswGame2008.Image" Collapsed="true">
+    <Position X="103.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Image.cs</FileName>
+      <HashCode>CAQCAAASAAATAAQAAAAAIACABBgABAAAgAkkCR0UAEA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MiswGame2008.Music" Collapsed="true">
+    <Position X="105" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Music.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAEACQAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MiswGame2008.Sound" Collapsed="true">
+    <Position X="99.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\Sound.cs</FileName>
+      <HashCode>ACQAAAAAAAAAAAAQAAAAAAAEQAAUAAAAAAAAQAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

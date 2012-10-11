@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64DD645C-D198-4AF5-A5C1-A5183EFCE258}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MiswGame2008</RootNamespace>
+    <AssemblyName>dtf</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>dtf.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yanesdk\Yanesdk.csproj">
+      <Project>{5AD10454-A0F0-44D4-AC45-83F84D88250E}</Project>
+      <Name>Yanesdk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\BigExplosionEffect.cs" />
+    <Compile Include="src\BlueEnemy.cs" />
+    <Compile Include="src\BlueEnemySpawner.cs" />
+    <Compile Include="src\Borg.cs" />
+    <Compile Include="src\Bullet.cs" />
+    <Compile Include="src\Clipper.cs" />
+    <Compile Include="src\ClipperBullet.cs" />
+    <Compile Include="src\Debris.cs" />
+    <Compile Include="src\Effect.cs" />
+    <Compile Include="src\EndingMessage.cs" />
+    <Compile Include="src\EndingMessage1.cs" />
+    <Compile Include="src\EndingMessage2.cs" />
+    <Compile Include="src\EndingMessage3.cs" />
+    <Compile Include="src\EndingMessage4.cs" />
+    <Compile Include="src\EndingMessage5.cs" />
+    <Compile Include="src\EndingMessage6.cs" />
+    <Compile Include="src\Enemy.cs" />
+    <Compile Include="src\EnemyBullet.cs" />
+    <Compile Include="src\FirstBoss2.cs" />
+    <Compile Include="src\GreenEnemySpawner.cs" />
+    <Compile Include="src\FastEnemy.cs" />
+    <Compile Include="src\Firefox.cs" />
+    <Compile Include="src\FirstBoss.cs" />
+    <Compile Include="src\Funnel.cs" />
+    <Compile Include="src\Game.cs" />
+    <Compile Include="src\GameCommand.cs" />
+    <Compile Include="src\GameManager.cs" />
+    <Compile Include="src\GameObject.cs" />
+    <Compile Include="src\GameManagerStatus.cs" />
+    <Compile Include="src\GameOver.cs" />
+    <Compile Include="src\GameStatus.cs" />
+    <Compile Include="src\GrayBackgoundGame.cs" />
+    <Compile Include="src\GreenBackgroundGame.cs" />
+    <Compile Include="src\GreenEnemy.cs" />
+    <Compile Include="src\IAudio.cs" />
+    <Compile Include="src\Ie.cs" />
+    <Compile Include="src\IGraphics.cs" />
+    <Compile Include="src\IInput.cs" />
+    <Compile Include="src\Image.cs" />
+    <Compile Include="src\Kurage.cs" />
+    <Compile Include="src\KurageSpawner.cs" />
+    <Compile Include="src\Level19.cs" />
+    <Compile Include="src\Level20.cs" />
+    <Compile Include="src\Level21.cs" />
+    <Compile Include="src\Level22.cs" />
+    <Compile Include="src\Level23.cs" />
+    <Compile Include="src\Level24.cs" />
+    <Compile Include="src\Level25.cs" />
+    <Compile Include="src\MissileEnemySpawner.cs" />
+    <Compile Include="src\Mushi.cs" />
+    <Compile Include="src\LastBoss.cs" />
+    <Compile Include="src\Level1.cs" />
+    <Compile Include="src\Level10.cs" />
+    <Compile Include="src\Level11.cs" />
+    <Compile Include="src\Level12.cs" />
+    <Compile Include="src\Level13.cs" />
+    <Compile Include="src\Level14.cs" />
+    <Compile Include="src\Level15.cs" />
+    <Compile Include="src\Level16.cs" />
+    <Compile Include="src\Level17.cs" />
+    <Compile Include="src\Level18.cs" />
+    <Compile Include="src\Level2.cs" />
+    <Compile Include="src\Level3.cs" />
+    <Compile Include="src\Level4.cs" />
+    <Compile Include="src\Level5.cs" />
+    <Compile Include="src\Level6.cs" />
+    <Compile Include="src\Level7.cs" />
+    <Compile Include="src\Level8.cs" />
+    <Compile Include="src\Level9.cs" />
+    <Compile Include="src\Missile.cs" />
+    <Compile Include="src\MissileEnemy.cs" />
+    <Compile Include="src\MiswGame2008.cs" />
+    <Compile Include="src\Music.cs" />
+    <Compile Include="src\Opera.cs" />
+    <Compile Include="src\OrangeBullet.cs" />
+    <Compile Include="src\OrangeEnemy.cs" />
+    <Compile Include="src\OrangeEnemySpawner.cs" />
+    <Compile Include="src\Player.cs" />
+    <Compile Include="src\PlayerBullet.cs" />
+    <Compile Include="src\Program.cs" />
+    <Compile Include="src\Ranking.cs" />
+    <Compile Include="src\RedEnemy.cs" />
+    <Compile Include="src\RedEnemySpawner.cs" />
+    <Compile Include="src\SdlAudio.cs" />
+    <Compile Include="src\SdlGraphics.cs" />
+    <Compile Include="src\SdlInput.cs" />
+    <Compile Include="src\SkyBackgroundGame.cs" />
+    <Compile Include="src\SmallExplosionEffect.cs" />
+    <Compile Include="src\Smoke.cs" />
+    <Compile Include="src\Snake.cs" />
+    <Compile Include="src\SnakeBody.cs" />
+    <Compile Include="src\SnakeBullet.cs" />
+    <Compile Include="src\Sound.cs" />
+    <Compile Include="src\StarBackgroundGame.cs" />
+    <Compile Include="src\Teki.cs" />
+    <Compile Include="src\TekiBullet.cs" />
+    <Compile Include="src\Title.cs" />
+    <Compile Include="src\TopPlayerInfo.cs" />
+    <Compile Include="src\UserCommand.cs" />
+    <Compile Include="src\Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dtf.ico" />
+    <Content Include="dtf\images\Background1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Background2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Background3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\BigExplosion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\BlueEnemy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Borg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Browser.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Bullet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Circle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Clipper.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Debris.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Dtf.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\FastEnemy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\FirstBoss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\GreenEnemy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Hud.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Kurage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\LastBoss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Mushi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\MissileEnemy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\OrangeEnemy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Player.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\RedEnemy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\SmallExplosion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Smoke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\SnakeBody.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\SnakeHead.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Star.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Teki.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\images\Yome.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\CursorMove.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\EnemyDamage.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\EnemyFire.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\Enter.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\Explosion.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\MissileFire.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\OrangeFire.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\PlayerFire.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\Select.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dtf\sounds\Warp.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dtf\musics\Boss.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="dtf\musics\Game.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="dtf\musics\NameEntry.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="dtf\musics\Title.ogg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
